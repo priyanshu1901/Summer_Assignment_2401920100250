@@ -1,17 +1,4 @@
-// Question 2 (contains duplicate)
-
-class Solution {
-    public boolean containsDuplicate(int[] arr) {
-        HashSet<Integer> set = new HashSet<>();
-        for(int ele: arr){
-            if(set.contains(ele)) return true;
-            else set.add(ele);
-        }
-        return false;
-    }
-}
-
-// Question 3 (Maximum Avg Subarray I )
+// Question 2 (Maximum Avg Subarray I )
 
 class Solution {
     public double findMaxAverage(int[] arr, int k) {
